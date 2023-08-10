@@ -5,6 +5,7 @@
 
 html {
     font-size: 62.5px;
+    overflow-x: hidden;
 }
 
 body {
@@ -171,8 +172,12 @@ header {
     border-radius: 1.5vw;
 }
 
-.bottom-img-text {
+.bottom-img-text,.bottom-img-text1 {
     font-size: 0.8vw;
+}
+
+.bottom-img-text1 {
+    color: #fff;
 }
 
 .bottom-right-link:hover {
@@ -283,21 +288,38 @@ header {
         left: 93.5vw;
     }
 
+    .top {
+        margin-top: 3vw;
+    }
+
     .top-img {
-        width: 6vw;
+        width: 7vw;
     }
     .bottom-text {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         margin-top: 3vw;
     }
 
     .top-text1 {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
 
-    .top-text2,.bottom-text1 {
-        font-size: 2vw;
+    .top-text2,.bottom-text1,.bottom-box-text,.bottom-box-text2 {
+        font-size: 3vw;
         line-height: 3.5vw;
+    }
+
+    .bottom-text1 {
+        margin-bottom: 1vw;
+    }
+
+    .bottom-left-box1,.bottom-left-box2 {
+        border-radius: 3vw;
+    }
+
+    .bottom-img2-bg {
+        padding-block: 3vw;
+        border-radius: 5vw;
     }
 
     .bottom {
@@ -306,7 +328,7 @@ header {
     }
 
     .bottom-box-text,.bottom-box-text2 {
-        margin-right: 30vw;
+        margin-right: 40vw;
     }
 
     .bottom-box-img1 {
@@ -315,20 +337,22 @@ header {
     }
 
     .bottom-right-link {
-        font-size: 2.5vw;
+        font-size: 4.5vw;
         position: static;
+        padding-inline: 5vw;
         margin-inline: auto;
         margin-top: 1vw;
+        border-radius: 4vw;
     }
 
     .bottom-flecha {
-        width: 4vw;
+        width: 6vw;
         margin-left: 1.5vw;
     }
 
     .bottom-imgs-grid {
         display: grid;
-        grid-template-columns: repeat(3, 16vw);
+        grid-template-columns: repeat(3, 22vw);
         grid-template-rows: min-content;
         text-align: center;
         align-items: center;
@@ -336,32 +360,45 @@ header {
         left: 0.5vw;
     }
 
-    .bottom-img-text {
-        font-size: 2vw;
+    .bottom-img-text,.bottom-img-text1 {
+        font-size: 3vw;
     }
 
     .bottom-left-img1 {
-        width: 14vw;
+        width: 20vw;
         margin-bottom: 3vw;
     }
 
     .bottom-left-img2 {
-        width: 7vw;
+        width: 9vw;
     }
 
     .bottom-left-img3 {
-        width: 8vw;
+        width: 11vw;
     }
 
     .bottom-center-img1 {
-        width: 5vw;
-    }
-
-    .bottom-center-img2 {
         width: 7vw;
     }
 
+    .bottom-center-img2 {
+        width: 9vw;
+    }
+
     .bottom-center-img3 {
-        width: 8vw;
+        width: 13vw;
+    }
+
+    .bottom-box-img1 {
+        width: 3vw;
+        bottom: 4.5vw;
+        left: 59vw;
+    }
+
+    .bottom-box-img2 {
+        width: 3vw;
+        position: relative;
+        bottom: 7.55vw;
+        left: 2.5vw;
     }
 }

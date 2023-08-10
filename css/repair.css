@@ -1,0 +1,186 @@
+@font-face {
+    font-family: kollektif;
+    src: url(../font/Kollektif.ttf);
+}
+
+html {
+    font-size: 62.5px;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16%;
+    font-family: kollektif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0vw;
+    padding: 0vw;
+}
+
+header {
+    display: flex;
+    border-bottom: 0.1vw solid #000;
+    margin: 2vw 12vw;
+    align-items: center;
+    padding-bottom: 0.5vw;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    margin-right: 13.5vw;
+}
+
+.header-img {
+    width: 10vw;
+    margin-right: 11vw;
+}
+
+.header-text {
+    font-size: 1.5vw;
+}
+
+.img-pedro {
+    position: relative;
+    left: 92.7vw;
+    bottom: 7.7vw;
+    width: 5.5vw;
+}
+
+main {
+    position: relative;
+    bottom: 6vw;
+}
+
+.container .transaccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .transaccion .img1 {
+    text-align: center;
+    width: 3.5vw;
+    margin-top: 0.5vw;
+}
+
+.text1 {
+    font-size: 2.5vw;
+    margin: 1vw 0 1.5vw 0;
+}
+
+.container .transaccion .img2 {
+    width: 11vw;
+    margin-top: 1.5vw;
+}
+
+.text {
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.container .transaccion .text2 {
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+    text-align: center;
+    line-height: 2vw;
+    margin-bottom: 3vw;
+}
+
+.container .transaccion a:hover {
+    background-color: #115ef9;
+}
+
+.container .transaccion a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    padding: 1vw 3vw;
+    background-color: #0050f5;
+    width: fit-content;
+    border-radius: 2vw;
+    margin-inline: auto;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        margin-inline: 7vw;
+    }
+
+    .header-link {
+        font-size: 3vw;
+        margin-left: 5vw;
+        margin-right: 11.3vw;
+    }
+
+    .header-img {
+        width: 15vw;
+        margin-right: 7vw;
+    }
+
+    .header-text {
+        font-size: 3vw;
+    }
+
+    .img-pedro {
+        position: relative;
+        bottom: 9vw;
+        left: 93.5vw;
+    }
+
+    .top {
+        margin-top: 3vw;
+    }
+
+    .top-img {
+        width: 7vw;
+    }
+
+    .bottom-text {
+        font-size: 4.5vw;
+        margin-top: 3vw;
+    }
+
+    .top-text1 {
+        font-size: 4.5vw;
+    }
+
+    .container .transaccion .img1 {
+        text-align: center;
+        width: 10vw;
+        margin-top: 2vw;
+    }
+
+    .container .transaccion .img2 {
+        width: 35vw;
+        margin-top: 2.5vw;
+    }
+
+    .container .transaccion .text1 {
+        font-size: 6vw;
+        margin: 1vw 0 1.5vw 0;
+    }
+
+    .container .transaccion .text2 {
+        font-size: 2.9vw;
+        margin-top: 0.5vw;
+        line-height: 4vw;
+    }
+
+    .container .transaccion a {
+        font-size: 4.5vw;
+        position: static;
+        padding-inline: 5vw;
+        margin-inline: auto;
+        margin-top: 4vw;
+        border-radius: 4vw;
+    }
+
+    .text {
+        font-size: 4.5vw;
+    }
+}
