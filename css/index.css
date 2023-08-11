@@ -151,9 +151,11 @@ input[type="checkbox"] {
 #checkbox-btn[type="checkbox"]:checked+.checkbox-button-open {
     background-color: #2471ff;
 }
+
 #checkbox-btn[type="checkbox"]:checked~.popup-registro {
     visibility: hidden;
 }
+
 #checkbox-btn[type="checkbox"]:checked~.popup {
     visibility: visible;
 }
@@ -171,12 +173,15 @@ input[type="checkbox"] {
 }
 
 .oculto {
-    font-size: 2vw;
     z-index: 400;
     position: relative;
     left: 17vw;
     cursor: pointer;
     padding-bottom: 3vw;
+}
+
+.exit {
+    width: 2vw;
 }
 
 .oculto:hover {
@@ -266,15 +271,15 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-#checkbox-btn-registro[type="checkbox"]:checked + .registrar-btn {
+#checkbox-btn-registro[type="checkbox"]:checked+.registrar-btn {
     background-color: #2471ff;
 }
 
-#checkbox-btn-registro[type="checkbox"]:checked ~ .popup-registro {
+#checkbox-btn-registro[type="checkbox"]:checked~.popup-registro {
     visibility: visible;
 }
 
-#checkbox-btn-registro[type="checkbox"]:checked ~ .popup {
+#checkbox-btn-registro[type="checkbox"]:checked~.popup {
     visibility: hidden;
 }
 
@@ -291,7 +296,8 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: center;
 }
-.popup-cuadrado-registro{
+
+.popup-cuadrado-registro {
     width: 40vw;
     height: 42vw;
     background-color: white;
@@ -301,9 +307,11 @@ input[type="checkbox"] {
     align-items: center;
     padding: 2vw 0;
 }
+
 .popup-registro .oculto {
     padding-bottom: 0;
 }
+
 .logo-popup-registro {
     width: 8vw;
     height: 3.5vw;
@@ -311,9 +319,11 @@ input[type="checkbox"] {
     bottom: 2vw;
     position: relative;
 }
+
 .popup-registro .text1 {
     font-size: 1.4vw;
 }
+
 .registrarse-btn {
     padding: 1vw 3vw;
     font-size: 1.3vw;
@@ -538,6 +548,7 @@ input[type="checkbox"] {
 #mac p {
     padding-top: 4.8vw;
 }
+
 #mac {
     padding-top: 5vw;
 }
@@ -545,6 +556,7 @@ input[type="checkbox"] {
 #ipad p {
     padding-top: 2.5vw;
 }
+
 #ipad {
     padding-top: 5.2vw;
 }
@@ -627,6 +639,7 @@ input[type="checkbox"] {
     color: white;
     font-size: 1.1vw;
 }
+
 /* #mac {
     padding-top: 6vw;
 } */
@@ -635,15 +648,19 @@ input[type="checkbox"] {
     .top-left img {
         width: 34vw;
     }
+
     .top-left {
         width: 45vw;
     }
+
     .top-text1 p {
         font-size: 3vw;
     }
+
     .top-text2 {
         font-size: 2vw;
     }
+
     .checkbox-button-open {
         height: 3vw;
         width: 21vw;
@@ -651,9 +668,11 @@ input[type="checkbox"] {
         font-size: 2.9vw;
         text-align: center;
     }
+
     .top-btns {
         margin-right: 4vw;
     }
+
     #top-btn1 {
         height: 3vw;
         width: 21vw;
@@ -661,95 +680,125 @@ input[type="checkbox"] {
         font-size: 2.9vw;
         text-align: center;
     }
+
     main {
         grid-template-rows: 60vw auto auto auto auto auto;
     }
+
+    .exit {
+        width: 4vw;
+    }
+
     .top-bottom {
         margin-left: 4vw;
     }
+
     .top-bottom-img img {
         width: 28vw;
         margin-right: 4vw;
     }
+
     .popup-cuadrado {
         width: 77vw;
         height: 77vw;
     }
+
     .popup-cuadrado-registro {
         width: 80vw;
         height: 100vw;
     }
+
     .oculto {
         font-size: 6vw;
         left: 32vw;
     }
+
     .logo-popup {
         width: 23vw;
         height: 11.5vw;
     }
+
     .logo-popup-registro {
         width: 20vw;
         height: 9.5vw;
     }
+
     .popup-id-text1 {
         font-size: 2.8vw;
     }
+
     .popup-registro .text1 {
         font-size: 2.3vw;
     }
+
     .label {
         font-size: 3vw;
     }
+
     .inptext {
         height: 6vw;
     }
+
     .ingresar-btn {
         padding: 1vw 6vw;
         font-size: 4vw;
     }
+
     .registrar-btn {
         padding: 1vw 4vw;
         font-size: 4vw;
     }
+
     .registrarse-btn {
         padding: 3vw 9vw;
         font-size: 4vw;
         border-radius: 8vw;
     }
+
     .popup-btns hr {
         width: 66vw;
     }
+
     .tambien {
         font-size: 3vw;
     }
+
     .red {
         font-size: 5vw;
     }
+
     .pasos-text1 {
         font-size: 5.6vw;
     }
+
     .pasos-text2 {
         font-size: 3vw;
     }
+
     .pasos-imgs {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column  ;
+        flex-direction: column;
     }
+
     .pasos-img {
         width: 75%;
     }
+
     .pasos-img img {
         width: 20vw;
     }
+
     .pasos-img-text1 {
         font-size: 5.6vw;
     }
+
     .pasos-img-text2 {
         font-size: 3.5vw;
         line-height: 4vw;
     }
+
     #pasos-btn {
         height: 5vw;
         font-size: 4.9vw;
@@ -757,19 +806,24 @@ input[type="checkbox"] {
         padding: 3vw;
         border-radius: 20vw;
     }
+
     .tecnicos {
         margin-top: 10vw;
     }
+
     .tecnicos-text1 {
         font-size: 5.6vw;
     }
+
     .tecnicos-text2 {
         font-size: 3vw;
         width: 75%;
     }
+
     .precios-text1 {
         font-size: 5.6vw;
     }
+
     .precios-text2 {
         font-size: 3vw;
         width: 75%;
@@ -782,25 +836,32 @@ input[type="checkbox"] {
     .precios-img img {
         width: 10vw;
     }
+
     .precios-img-text1 {
         font-size: 4.6vw;
     }
+
     .precios-img-text2 {
         font-size: 3vw;
-    }      
+    }
+
     .right img {
         width: 14vw;
     }
+
     .tc {
         font-size: 2vw;
     }
+
     .dispositivos-text1 {
         font-size: 5.6vw;
     }
+
     .dispositivos-text2 {
         font-size: 3vw;
         width: 75%;
     }
+
     .dispositivos-imgs {
         flex-direction: column;
     }
@@ -808,36 +869,46 @@ input[type="checkbox"] {
     .dispositivos-img #mac-img {
         width: 37vw;
     }
+
     .dispositivos-img #iphone-img {
         width: 21vw;
     }
+
     .dispositivos-img #ipad-img {
         width: 30vw;
     }
+
     .dispositivos-imgs {
         font-size: 6vw;
     }
+
     #iphone {
         margin-left: 0;
         margin-right: 0;
     }
+
     #campesinos-logo {
         width: 28vw;
         height: 13vw;
     }
+
     .colombianos span {
         font-size: 6.6vw;
     }
+
     .campesinos p {
         font-size: 1.5vw;
     }
+
     .campesinos p {
         font-size: 5vw;
         width: 80vw;
     }
+
     .footer {
         flex-direction: column;
     }
+
     .footer a {
         font-size: 3.5vw;
     }
