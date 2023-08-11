@@ -645,24 +645,30 @@ input[type="checkbox"] {
         font-size: 2vw;
     }
     .checkbox-button-open {
-        height: 2vw;
-        width: 14vw;
+        height: 3vw;
+        width: 21vw;
         padding: 1vw;
-        font-size: 1.9vw;
+        font-size: 2.9vw;
+        text-align: center;
     }
     .top-btns {
         margin-right: 4vw;
     }
     #top-btn1 {
-        height: 2vw;
-        font-size: 1.9vw;
-        padding: 1vw 2.5vw;
+        height: 3vw;
+        width: 21vw;
+        padding: 1vw;
+        font-size: 2.9vw;
+        text-align: center;
     }
     main {
         grid-template-rows: 60vw auto auto auto auto auto;
     }
+    .top-bottom {
+        margin-left: 4vw;
+    }
     .top-bottom-img img {
-        width: 15vw;
+        width: 28vw;
         margin-right: 4vw;
     }
     .popup-cuadrado {

@@ -11,6 +11,7 @@ html {
 body {
     font-size: 16%;
     font-family: kollektif;
+
 }
 
 * {
@@ -71,8 +72,7 @@ header {
 
 .container .mapa {
     display: flex;
-    justify-content: center;
-    gap: 7vw;
+    justify-content: space-around;
     margin: 0;
 }
 
@@ -250,10 +250,21 @@ header {
     text-align: center;
 }
 
+.casa {
+    width: 30vw;
+}
+
+.banco {
+    width: 28vw;
+}
+
+.mapita {
+    width: 25vw;
+}
+
 @media screen and (max-width: 768px) {
 
     html {
-        font-size: 62.5px;
         overflow: visible;
     }
 
